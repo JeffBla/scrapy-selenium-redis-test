@@ -1,1 +1,1 @@
-# scrapy_test_2
+# scrapy-selenium-redis small project
