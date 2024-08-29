@@ -15,7 +15,7 @@ SELENIUM_DRIVER_NAME = 'chrome'
 SELENIUM_DRIVER_EXECUTABLE_PATH = '/home/jeffbla/Project/scrapy_test_2/selenium_test/chromedriver'
 SELENIUM_DRIVER_ARGUMENTS = []
 
-DOWNLOADER_MIDDLEWARES = {'scrapy_selenium.SeleniumMiddleware': 800}
+DOWNLOADER_MIDDLEWARES = {'selenium_test.middlewares.SeleniumMiddleware': 800}
 
 BOT_NAME = "selenium_test"
 
